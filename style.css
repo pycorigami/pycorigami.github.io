@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #edfbff;
+    color: #333;
+  }
+
+  header {
+    background-color: #b3e1ff;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+
+  
+  .logo-esquina {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+  }
+
+  .contenedormain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    margin: 15px
+  }
+
+  .tarjeta {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000001a;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.4s;
+  }
+
+  .tarjeta:hover {
+    transform: scale(1.03);
+  }
+
+  .tarjeta h2 {
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+  }
+
+  .tarjeta a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0078c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .tarjeta p {
+    font-size: 1.1rem;
+  }
+
+  .doble-seccion{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .doble-seccion div{
+    flex: 1 1 30%;
+    padding: 2rem;
+    box-sizing: border-box;
+    min-height: 200px;
+    background-color: #d7efff;
+    border-style: solid;
+    border-color: #b3e1ff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .contenedorbeneficios h3{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+ol{
+  list-style: disc;
+}
+
+footer{
+    background-color: #cfcfcf;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  }
