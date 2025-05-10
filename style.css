@@ -29,7 +29,7 @@ header p {
   width: 50px;
 }
 
-.main {
+.maindiv {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
