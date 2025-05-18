@@ -1,8 +1,8 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #edfbff;
-    color: #333;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #edfbff;
+  color: #333;
 }
 
 header {
@@ -18,14 +18,20 @@ header h1 {
 
 header p {
   font-size: 1.5rem;
-  margin-top: 0.8rem;  
+  margin-top: 0.8rem;
 }
 
-  
+.header-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
-  position: fixed;
-  top: 10px;
-  left: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 50px;
 }
 
@@ -37,7 +43,7 @@ header p {
   margin: 15px
 }
 
-.maindiv p{
+.maindiv p {
   margin-top: 12px;
 }
 
@@ -46,12 +52,14 @@ header p {
   border-radius: 10px;
   box-shadow: 0 4px 8px #0000001a;
   padding: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: center;
   transition: transform 0.4s;
 }
 
 .tarjeta:hover {
-  transform: scale(1.03);  
+  transform: scale(1.03);
 }
 
 .tarjeta h2 {
@@ -74,13 +82,13 @@ header p {
   font-size: 1.1rem;
 }
 
-.info{
+.info {
   display: flex;
   flex-wrap: wrap;
   margin: 2rem 0;
 }
-  
-.info div{
+
+.info div {
   flex: 1 1 50%;
   padding: 2rem;
   box-sizing: border-box;
@@ -92,7 +100,7 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.info h3{
+.info h3 {
   text-align: center;
   font-size: 3.5rem;
   padding: 10px;
@@ -103,11 +111,11 @@ header p {
   font-size: 140%;
 }
 
-ol{
+ol {
   list-style: disc;
 }
 
-footer{
+footer {
   background-color: #cfcfcf;
   padding: 1rem;
   text-align: center;
