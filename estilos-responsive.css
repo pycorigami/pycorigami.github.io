@@ -1,0 +1,95 @@
+@media (max-width: 1600px) {
+  .info p{
+    font-size: 120%;
+  }
+}
+@media (max-width: 1400px) {
+  .info h3{
+    font-size: 3rem;
+  }
+  .info p{
+    font-size: 105%;
+  }
+}
+@media (max-width: 1240px) {
+  .info h3{
+    font-size: 2.5rem;
+  }
+  .info p{
+    font-size: 100%;
+  }
+  footer {
+    max-width: 800px;
+  }
+}
+@media (max-width: 1040px){
+  .info h3{
+    padding-top: 30%;
+    font-size: 2rem;
+  }
+
+  .info p{
+    font-size: 95%;
+  }
+}
+
+
+@media (max-width : 930px){
+
+  header{
+    padding-bottom: 10px;
+  }
+
+  .maindiv p{
+    margin-top: 10px;
+  }
+
+  .maindiv{
+    display: inline;
+    padding: 5px;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info .historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: none;
+    padding: 1rem;
+  }
+
+  .info .historia h3 {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+  }
+
+  .info .historia p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+
+  .tarjeta {
+    margin: 20px;
+    margin-top: 2px;
+    padding-top: 2px;
+  }
+
+  footer{
+    max-width: 500px;
+    font-size: 15px;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
