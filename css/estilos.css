@@ -21,11 +21,11 @@ header p {
   margin-top: 0.8rem;
 }
 
-.header-content {
-  position: relative;
+.header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .logo {
