@@ -1,22 +1,29 @@
-.maindiv {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-  margin: 15px
+.volver {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0078c9;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.maindiv p {
-  margin-top: 12px;
+.maindiv {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  justify-content: center;
+  column-gap: 2.5rem;
+  row-gap: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .tarjeta {
   background-color: #fff;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 8px #0000001a;
-  padding: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -30,7 +37,9 @@
 
 .tarjeta h2 {
   font-size: 1.5rem;
+  margin-top: 0.2rem;
   margin-bottom: 0.5rem;
+  overflow-wrap: break-word;
 }
 
 .tarjeta a {
@@ -55,31 +64,29 @@
   margin: 1rem 0;
 }
 
-.info {
+.img-container {
+  background-color: darkgray;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 10px auto 20px;
   display: flex;
-  flex-wrap: wrap;
-  margin: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.info div {
-  flex: 1 1 50%;
-  padding: 2rem;
-  box-sizing: border-box;
-  min-height: 200px;
-  background-color: #d7efff;
-  border-style: solid;
-  border-color: #b3e1ff;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
-.info h3 {
-  text-align: center;
-  font-size: 3.5rem;
-  padding: 10px;
+.logo {
+  top: -11px;
 }
 
-.info p {
-  padding: 15px;
-  font-size: 140%;
+.logo p {
+  padding-top: 64px;
 }
