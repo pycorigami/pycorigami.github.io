@@ -14,9 +14,12 @@
     - [ ] Título del modelo
     - [ ] Dificultad
     - [ ] Materiales
-    - [ ] Pasos enumerados h2, h3, p
     - [ ] Botón regresar
+    - [ ] Tiempo aproximado
+    - [ ] Papel
+    - [ ] N° de pasos
 - [ ] Diseñar base CSS
+    - [ ] Pasos enumerados h2, h3, p
     - [ ] Texto
     - [ ] Botones
     - [ ] Vídeos
