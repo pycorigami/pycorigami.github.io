@@ -5,7 +5,7 @@
     - [x] Nombre
     - [x] Espacio para imagen
     - [x] Botón para entrar
-- [ ] Agregar relleno
+- [x] Agregar relleno
 - [x] Botón volver
 - [x] CSS responsive
 
@@ -59,4 +59,3 @@
         - [ ] Referencias + conclusión + QR
         - [ ] Contraportada 
 - [ ] Imprimir
-- [ ] Presentarlo
