@@ -41,6 +41,8 @@
 
     .description {
       font-size: 14px;
+      padding-left: 75px;
+      padding-right: 75px;
     }
 
     .logo {
@@ -58,6 +60,8 @@
 
   .description {
     font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .tarjeta {

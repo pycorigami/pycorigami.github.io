@@ -1,14 +1,16 @@
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
-  background-color: #edfbff;
-  color: #333;
+  background-color: #EAF6FF;
+  color: #162733;
 }
 
 header {
   background-color: #b3e1ff;
   padding: 1.5rem;
   text-align: center;
+  border-style: solid;
+  border-color: #83BEE6;
 }
 
 header h1 {
@@ -39,20 +41,24 @@ header p {
   font-size: 17px;
   padding-top: 75px;
   text-align: center;
+  color: #005fa3;
+  font-weight: 700;
 }
 
 footer {
-  background-color: #cfcfcf;
+  background-color: #162733;
   padding: 1rem;
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
+  color: #EAF6FF;
 }
 
-a {
-  color: #0078c9;
-  border: none;
-  border-radius: 5px;
+a{
   text-decoration: none;
-  font-weight: bold;
+}
+
+.pdf-link {
+  color:#B3E1FF;
+  font-weight: 800;
 }

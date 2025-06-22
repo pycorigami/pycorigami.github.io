@@ -31,12 +31,13 @@
 .tarjeta h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  color: #162733;
 }
 
 .tarjeta a {
   align-self: center;
   padding: 0.5rem 1.2rem;
-  background-color: #0078c9;
+  background-color: #0082CC;
   color: white;
   border: none;
   border-radius: 5px;
@@ -47,11 +48,13 @@
 }
 
 .tarjeta a:hover {
-  background-color: #005fa3;
+  background-color: #005C92;
 }
 
 .tarjeta p {
   font-size: 1.1rem;
+  font-weight: 600;
+  color: #162733;
   margin: 1rem 0;
 }
 
@@ -66,9 +69,9 @@
   padding: 2rem;
   box-sizing: border-box;
   min-height: 200px;
-  background-color: #d7efff;
+  background-color: #C9E8FF;
   border-style: solid;
-  border-color: #b3e1ff;
+  border-color: #83BEE6;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -77,9 +80,11 @@
   text-align: center;
   font-size: 3.5rem;
   padding: 10px;
+  color: #162733;
 }
 
 .info p {
   padding: 15px;
   font-size: 140%;
+  color: #162733;
 }

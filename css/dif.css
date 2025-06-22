@@ -1,7 +1,7 @@
 .volver {
   display: inline-block;
   margin-top: 10px;
-  color: #0078c9;
+  color: #005C92;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -55,7 +55,7 @@
 .tarjeta a {
   align-self: center;
   padding: 0.5rem 1.2rem;
-  background-color: #0078c9;
+  background-color: #0082CC;
   color: white;
   border: none;
   border-radius: 5px;
@@ -66,7 +66,7 @@
 }
 
 .tarjeta a:hover {
-  background-color: #005fa3;
+  background-color: #005C92;
 }
 
 .tarjeta p {
@@ -75,7 +75,7 @@
 }
 
 .img-container {
-  background-color: darkgray;
+  background-color: #EBF6FF;
   aspect-ratio: 16 / 9;
   width: 100%;
   max-width: 100%;
