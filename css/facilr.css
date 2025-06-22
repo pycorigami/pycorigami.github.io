@@ -52,6 +52,10 @@
     column-gap: 1rem;
   }
 
+  .description {
+    font-size: 12px;
+  }
+
   .tarjeta {
     width: 90%;       /* un poco de margen lateral */
     max-width: 280px; /* más pequeño que en pantallas mayores */
