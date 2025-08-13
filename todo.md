@@ -5,7 +5,6 @@
     - [x] Nombre
     - [x] Espacio para imagen
     - [x] Botón para entrar
-- [x] Agregar relleno
 - [x] Botón volver
 - [x] CSS responsive
 
@@ -27,8 +26,8 @@
 - [ ] CSS responsive
 
 ## Tutoriales individuales
-- [ ] Buscar tutoriales individuales
-- [ ] Clasificar tutoriales individuales
+- [x] Buscar tutoriales individuales
+- [x] Clasificar tutoriales individuales
 - [ ] Escribir pasos
 - [ ] Tomar fotos
 - [ ] Grabar vídeos

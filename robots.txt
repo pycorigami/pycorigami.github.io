@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pycorigami.github.io/sitemap.xml
