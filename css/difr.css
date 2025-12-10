@@ -72,6 +72,6 @@
 
   .img-container {
     width: 100%;      /* ancho completo de la tarjeta */
-    aspect-ratio: 16 / 9; /* mantiene proporción */
+    aspect-ratio: 3 / 4; /* mantiene proporción */
   }
 }
